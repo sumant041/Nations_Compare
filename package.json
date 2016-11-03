@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass --include-path css/src css/src/main.scss:css/main.css",
+    "sass": "node-sass --include-path css/src css/src/main.scss css/main.css",
     "serve": "lite-server",
     "start": "npm run sass && npm run serve"
   },
