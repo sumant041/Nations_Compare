@@ -1,0 +1,26 @@
+{
+  "name": "nations_compare",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass --include-path css/src css/src/main.scss:css/main.css",
+    "serve": "lite-server",
+    "start": "npm run sass && npm run serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumant041/Nations_Compare.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sumant041/Nations_Compare/issues"
+  },
+  "homepage": "https://github.com/sumant041/Nations_Compare#readme",
+  "devDependencies": {
+    "lite-server": "^2.2.2",
+    "node-sass": "^3.11.0",
+    "nodemon": "^1.11.0"
+  }
+}
